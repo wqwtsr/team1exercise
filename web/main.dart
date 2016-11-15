@@ -22,7 +22,7 @@ void main() {
   querySelector('#LogIn_Btn')
     ..text = '登录'
     ..onClick.listen(LogIn); //用户登录按钮
-  querySelector('#SignUp_Btn')
+  querySelector('#SignUp_Btn1')
     ..text = '注册'
     ..onClick.listen(SignuUp); //用户注册按钮
 
@@ -32,7 +32,7 @@ void main() {
   signup_password = querySelector('#SignUp_Password'); //输入密码
   signup_confirmpw = querySelector('#SignUp_ConfirmPW'); //确认密码
   signup_taboo1 = querySelector('#SignUp_Taboo1'); //确认密码
-  querySelector('#SignUp_Stu_Btn')
+  querySelector('#SignUp_Btn2')
     ..text = '注册'
     ..onClick.listen(SignUpOK); //注册按钮
 
